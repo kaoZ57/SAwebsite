@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="detail.html" class="brand-logo center">
+                <h4 style="color: black">ปีการศึกษา 2564 / ภาคการศึกษาที่ 1</h4>
+            </a>
+            <ul class="left hide-on-med-and-down">
+                <li>
+                    <a href="detail.html"><img src="https://upload.wikimedia.org/wikipedia/th/e/e0/RMUTI_KORAT.png" alt="HTML5 Icon" width="70" height="100"></a>
+                </li>
+                <li>
+                    <a href="detail.html">
+                        <h5 style="color: black;">ระบบลงทะเบียนเรียน<br>
+                            <h5>มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน</h5>
+                        </h5>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="col">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="col center-align"><img src="https://sites.google.com/site/rmutifbaresearch/_/rsrc/1387108909196/home/rmuti.png?height=200&width=179">
+        </div>
+        <div class="col">
+            <div class="row s6 center">
+                <h3>กรุณาเข้าสู่ระบบก่อนใช้งาน</h3>
+            </div>
+
+        </div>
+
+        <form action="">
+            <div class="col">
+                <div class="row center-align">
+                    ชื่อผู้ใช้
+                    <div class="input-field inline" id="inputAAA">
+                        <input id="username" type="text" class="validate">
+                        <label for="email_inline">Username</label>
+                    </div>
+                </div>
+                <div class="row center-align">
+                    รหัสผ่าน
+                    <div class="input-field inline" id="inputAAA">
+                        <input id="password" type="password" class="validate">
+                        <label for="email_inline">Password </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12"><a class="waves-effect big" id="AAA" onclick="checked()" style="width: 180px;
+            height: 50px;
+            left: 880px;
+            background: #FF6E31;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+           ">เข้าสู่ระบบ</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function checked() {
+            window.location.href = 'detail.html';
+        }
+    </script>
+
+</body>
+
+</html>
